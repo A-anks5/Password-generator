@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Montserrat+Alternates&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style_pwdgen.css">
+    </head>
+    <body>
+        <h1 id="head1">Generate a</h1>
+        <h1 id="head2">random password</h1>
+        <h3>Never use an insecure password again</h3>
+        <h3>Conditions:</h3>
+        <div class="psd-length">
+            <h5>Enter the length of the password required:</h5>
+            <input type="number" id="input-el" value="15">
+        </div>
+        <div class="selectors">
+            <input type="checkbox" class="checkbox" id="up-el"> 
+            <h5>Uppercase</h5>
+        </div>
+        <div class="selectors">
+            <input type="checkbox" class="checkbox" id="lw-el"> 
+            <h5>Lowercase</h5>
+        </div>
+        <div class="selectors">
+            <input type="checkbox" class="checkbox" id="num-el"> 
+            <h5>Numbers</h5>
+        </div>
+        <div class="selectors">
+            <input type="checkbox" class="checkbox" id="sp-el"> 
+            <h5>Special Characters</h5>
+        </div>
+        <br>
+        <button onclick="password()">Generate passwords</button>
+        <hr>
+        <div class="password-container">
+            <div class="password-box" id="psd1-el" onclick="copypassword(this)"></div>
+            <div class="password-box" id="psd2-el" onclick="copypassword(this)"></div>
+        </div>
+        <p id="copy-el"></p>
+        <script src="pwdgen.js"></script>
+    </body>
+</html>

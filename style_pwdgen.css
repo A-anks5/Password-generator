@@ -1,0 +1,76 @@
+body{
+    margin: 20px 50px;
+    background-color: #1b2430;
+}
+#head1{
+    color: white;
+    margin-bottom: -20px;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: bolder;
+    font-size: 58px;
+}
+#head2{
+    color: #12b178;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: bolder;
+    font-size: 58px;
+    margin-top: -2px;
+    padding-top: 10px;
+}
+h3{
+    color: white;
+    padding: 10px 0px 0px 0px;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: 200;
+    margin-bottom: 1px;
+}
+h5,p{
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: 400;
+}
+button{
+    padding: 7px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #12b178;
+    color: white;
+    text-shadow: 0px 0px 0px black;
+    margin-bottom: 25px;
+}
+.password-container{
+    display: flex;
+    gap: 40px;
+}
+.password-box{
+    height: 3vh;
+    width: 200px;
+    text-align: center;
+    background-color: #252e3f;
+    border: 2px solid #1b2430;
+    border-radius: 7px;
+    margin-top: 35px;
+    color: #12b178;
+    padding: 8px 2px 5px 2px;
+}
+.psd-length{
+    display: flex;
+    gap: 20px;
+}
+#input-el{
+    width: 80px;
+    height: 3vh;
+    margin-top: 21px;
+    border: #1b2430;
+    background-color: #252e3f;
+    color: white;
+    border-radius: 0;
+
+}
+.selectors{
+    display: flex;
+    gap: 10px;
+    margin-top: -25px;
+}
